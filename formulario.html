@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Registro - Página de Viajes</title>
+
+<style>
+
+article{
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid black; 
+    border-radius: 8px;      
+}
+</style>
+
+</head>
+
+<body>
+
+<article>
+    <h1>AGENCIA DE VIAJES</h1>
+    <h2>Registro e Ingreso de Usuarios</h2>
+
+    <h3>Iniciar Sesión</h3>
+    <form>
+        <label>Correo electrónico:</label><br>
+        <input type="email" name="correo" required>
+        <br><br>
+        <label>Contraseña:</label><br>
+        <input type="password" name="password" required>
+        <br><br>
+        <input type="submit" value="Ingresar">
+    </form>
+
+    <hr>
+
+    <h3>Formulario de Registro</h3>
+    <form>
+        <h4>Datos Personales</h4>
+        <label>Nombre completo:</label><br>
+        <input type="text" name="nombre" required>
+        <br><br>
+        <label>Tipo de identificación:</label><br>
+        <select name="tipo_id">
+            <option>Cédula</option>
+            <option>Pasaporte</option>
+            <option>Tarjeta de identidad</option>
+        </select>
+        <br><br>
+        <label>Numero de identificación:</label><br>
+        <input type="number" name="identificacion"><br><br>
+
+        <label>Correo electrónico:</label><br>
+        <input type="email" name="correo"><br><br>
+
+        <label>Número de teléfono:</label><br>
+        <input type="tel" name="telefono"><br><br>
+
+        <label>Dirección:</label><br>
+        <input type="text" name="direccion"><br><br>
+
+        <label>Fecha de nacimiento:</label><br>
+        <input type="date" name="fecha"><br><br>
+
+        <label>Edad:</label><br>
+        <input type="number" name="edad"><br><br>
+
+        <h4>Género</h4>
+        <input type="radio" name="genero" value="masculino"> Masculino<br>
+        <input type="radio" name="genero" value="femenino"> Femenino<br>
+        <input type="radio" name="genero" value="otro"> Otro<br><br>
+
+        <h4>Preferencias de viaje</h4>
+        <input type="checkbox" name="playa"> Playa<br>
+        <input type="checkbox" name="montaña"> Montaña<br>
+        <input type="checkbox" name="ciudad"> Ciudad<br>
+        <input type="checkbox" name="aventura"> Aventura<br><br>
+
+        <label>Ocupación:</label><br>
+        <select name="ocupacion">
+            <option>Estudiante</option>
+            <option>Empleado</option>
+            <option>Independiente</option>
+            <option>Otro</option>
+        </select><br><br>
+
+        <h4>Comentarios</h4> 
+        <textarea name="comentarios" rows="5" cols="40" placeholder="Escribe aquí tus comentarios..."></textarea>
+        <br><br>
+        <input type="submit" value="Registrarse">
+    </form>
+</article>
+
+</body>
+</html>

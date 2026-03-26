@@ -1,0 +1,86 @@
+.margen{
+    background-color: salmon;
+    margin: 12px 8px 15px 20px;
+    border: 1px solid rgb(1, 1, 12);
+    width: 20%;
+    height: 20%;
+    padding: 8px;
+
+}
+.titulo{
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 300px;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 5px 3px 6px rgb(255, 169, 255);
+    
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5;
+    margin: 20px;
+}
+header{
+    border: 1px solid black;
+    max-width: 900px;
+    margin: auto;
+    background: white;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+}
+header img{
+    width: 80px;
+    height: 80px;
+}
+ul{
+    list-style: none;
+    background-color: rgb(223, 159, 223);
+    padding:10px;
+}
+li{
+    display: inline;
+    margin: 10px;
+}
+a{
+    text-decoration: none;
+    color: rgb(60, 8, 109);
+    font-weight: bold;
+}
+main{
+    max-width: 900px;
+    margin: 20px auto;
+    background: white;
+    border-radius: 8px;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+article{
+    padding: 10px;
+}
+img{
+    width: 100%;
+    max-width: 500px;
+    border-radius: 6px;
+}
+footer{
+    max-width: 900px;
+    margin: 20px auto;
+    background: white;
+    border: 1px solid black;
+    border-radius: 8px;
+    text-align: center;
+    padding: 15px;
+}
+
+.redes a{
+    margin: 10px;
+    text-decoration: none;
+    color: blueviolet;
+    font-weight: bold;
+
+}
+
+
+

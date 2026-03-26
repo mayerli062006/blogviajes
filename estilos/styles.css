@@ -1,5 +1,5 @@
 .margen{
-    background-color: salmon;
+    background-color: rgb(27, 24, 24);
     margin: 12px 8px 15px 20px;
     border: 1px solid rgb(1, 1, 12);
     width: 20%;
@@ -13,6 +13,10 @@
     text-align: center;
     text-decoration: underline;
     text-shadow: 5px 3px 6px rgb(255, 169, 255);
+    
+}
+nav{background-color: royalblue;
+    padding: 15px;
     
 }
 body{
@@ -35,7 +39,7 @@ header img{
 }
 ul{
     list-style: none;
-    background-color: rgb(223, 159, 223);
+    background-color: rgb(165, 110, 165);
     padding:10px;
 }
 li{
@@ -44,8 +48,10 @@ li{
 }
 a{
     text-decoration: none;
-    color: rgb(60, 8, 109);
-    font-weight: bold;
+    color: rgb(12, 11, 12);
+    width: 50px;
+    background-color: rgb(255, 169, 255);
+    padding-left: 0px;
 }
 main{
     max-width: 900px;
@@ -73,13 +79,13 @@ footer{
     text-align: center;
     padding: 15px;
 }
-
-.redes a{
-    margin: 10px;
-    text-decoration: none;
-    color: blueviolet;
-    font-weight: bold;
-
+.titulo02{
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 300px;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 5px 3px 6px rgb(255, 169, 255);
+    
 }
 
 
